@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:8000/api', // Votre URL backend
+    baseURL: 'https://cerisuckback.onrender.com/api', // Votre URL backend
     headers: {
         'Content-Type': 'application/json',
         'Accept': 'application/json'
